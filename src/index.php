@@ -18,7 +18,6 @@ $data = [
     'Solar'=>[
         'text'=>html_entity_decode(strip_tags(trim($result[0][244]))),
         'Date'=>strip_tags(trim($result[0][238])),
-        
         ],
     'lunar'=>[
         'text'=>html_entity_decode(strip_tags(trim($result[0][304]))),
